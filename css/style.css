@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 50px;
   background-color:#B0E0E6;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,11 +15,11 @@ body {
   align-items: center;
 }
 .container {
-  max-width: 400px;
+  max-width:400px;
   margin: 0 auto;
   text-align:center;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
+  background-color: #808080;
+  padding: 40px;
   border-radius: 10px;
 }
 label {
@@ -35,16 +35,22 @@ input {
 }
 
 button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px; 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	width: 150px;
+    height: 50px;
+	font-size: 15px;
+	background-color:rgb(31, 31, 31);
+	border:none;
+	color:white;
+	margin:3px;
+	border-radius:15px;
+	cursor: pointer;
 }
+
 button:hover {
-  background-color: #e57373; 
+	transform: scale(1.1);
+	transition: all 0.5s;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan, 0 0 400px cyan; 
 }
 
 #resultado-container {
@@ -82,7 +88,7 @@ button:hover {
 }
 
 .social-icons a:hover {
-    color: green; 
+    color: cyan; 
 }
 
 footer {
@@ -99,6 +105,6 @@ a:visited {
 }
 
 a:hover {
-    color: green;
+    color: cyan;
 	/*background-color: darkgrey;*/
 }
